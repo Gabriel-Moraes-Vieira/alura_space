@@ -1,0 +1,15 @@
+
+#para criar o espaçovirtual
+python -m venv nome_da_venv
+
+#para ativar o espaço virtual
+.\nome_do_arquivo\Scripts\Activate.ps1 
+
+#para criar um projeto
+django-admin startproject nome_do_projeto
+
+#para startar o servidor
+python manage.py runserver
+
+#para achar a pasta do seu projeto, no momento é (cd alura_receita_projeto)
+cd endereco_do_projeto 
